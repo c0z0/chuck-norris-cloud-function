@@ -9,7 +9,8 @@
 	"scripts": {
 		"dev": "functions deploy chuckNorrisJoke --trigger-http",
 		"debug": "functions debug chuckNorrisJoke --port 9229",
-		"deploy": "gcloud functions deploy chuckNorrisJoke --trigger-http"
+		"deploy": "gcloud functions deploy chuckNorrisJoke --trigger-http",
+		"test": "exit 0"
 	},
 	"dependencies": {
 		"@google-cloud/debug-agent": "^2.3.2",
