@@ -1,18 +1,18 @@
 {
-  "name": "gcloud-test-function",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@google-cloud/functions-emulator": "^1.0.0-alpha.29"
-  },
-  "scripts": {
-    "dev": "functions deploy chuckNorrisJoke --trigger-http",
-    "debug": "functions debug chuckNorrisJoke --port 9229",
-    "deploy": "gcloud functions deploy chuckNorrisJoke --trigger-http   "
-  },
-  "dependencies": {
-    "@google-cloud/debug-agent": "^2.3.2",
-    "isomorphic-fetch": "^2.2.1"
-  }
+	"name": "gcloud-test-function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@google-cloud/functions-emulator": "^1.0.0-alpha.29"
+	},
+	"scripts": {
+		"dev": "functions deploy chuckNorrisJoke --trigger-http",
+		"debug": "functions debug chuckNorrisJoke --port 9229",
+		"deploy": "gcloud functions deploy chuckNorrisJoke --trigger-http"
+	},
+	"dependencies": {
+		"@google-cloud/debug-agent": "^2.3.2",
+		"isomorphic-fetch": "^2.2.1"
+	}
 }
